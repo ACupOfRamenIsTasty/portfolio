@@ -31,7 +31,7 @@ export const LoadingScreen2 = ({ onComplete }) => {
             />
 
             {/* % Loading Text */}
-            <div className="text-4xl font-mono font-bold">
+            <div className="text-4xl font-Saira font-bold">
                 {progress}%
             </div>
 
