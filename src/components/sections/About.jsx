@@ -1,5 +1,8 @@
 import { RevealOnScroll } from '../RevealOnScroll';
 import face from '../../assets/face.png';
+import coop1 from '../../assets/W24.png';
+import coop2 from '../../assets/F24.png';
+import coop3 from '../../assets/S25.png';
 
 const skills = {
     Design: ["AutoCAD", "MicroStation", "Tinkercad"],
@@ -98,24 +101,45 @@ export const About = () => {
                     <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 mt-8
     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
-                        <div className="space-y-4 text-gray-300">
-                            <div>
-                                <h4><strong>Graphics Designer</strong> - UW Plant Operations (05/2025 - 08/2025)</h4>
-                                <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, Javascript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
-                                <li>Authored onboarding documentation and video tutorials for 8 future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
+
+                        <div className="space-y-8 text-gray-300">
+                            {/* Spring 2025 */}
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                <div className="md:w-3/4 space-y-2">
+                                    <h4><strong>Graphics Designer</strong> - UW Plant Operations (05/2025 - 08/2025)</h4>
+                                    <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, Javascript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
+                                    <li>Authored onboarding documentation and video tutorials for 8 future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
+                                </div>
+                                <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                </a>
                             </div>
-                            <div>
-                                <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
-                                <li>Utilized <u>React, Node.js, Express, and Axios</u> with a detail-oriented mindset to develop the certified Technology and Skilled Trades curriculum with <u>HTML/CSS, React and Node.js</u>, educating 30 students per term</li>
-                                <li>Designed an <u>AI prompting curriculum</u> for 100+ teachers in the GTA, promoting AI use in classrooms (see Projects)</li>
-                                <li>Boosted SEO performance by revamping business partners' websites using <u>Wordpress and Elementor</u>, increasing click-through rate by 30%</li>
-                                <li>Adapted to <u>Arduino IDE</u>, using communication to teach wiring and coding concepts to 50+ elementary and high school students</li>
+
+                            {/* Fall 2024 */}
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                <div className="md:w-3/4 space-y-2">
+                                    <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
+                                    <li>Utilized <u>React, Node.js, Express, and Axios</u> to develop a certified curriculum for 30 students per term</li>
+                                    <li>Designed an <u>AI prompting curriculum</u> for 100+ teachers in the GTA, promoting AI use in classrooms</li>
+                                    <li>Boosted SEO performance by revamping websites with <u>Wordpress and Elementor</u>, increasing click-through rate by 30%</li>
+                                    <li>Taught Arduino wiring and code concepts to 50+ students using <u>Arduino IDE</u></li>
+                                </div>
+                                <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                </a>
                             </div>
-                            <div>
-                                <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (03/2024 - 04/2024)</h4>
-                                <li>Employed a detail-oriented mindset to catch SEO errors, resulting in the website's 1st-page rankings on Google Search pages</li>
-                                <li>Employed <u>HTML/CSS</u> and Webflow, ensuring consistency and mobile-friendly design across every page</li>
-                                <li>Communicated daily with colleagues to achieve company goals and improve work reviews</li>
+
+                            {/* Winter 2024 */}
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                <div className="md:w-3/4 space-y-2">
+                                    <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (03/2024 - 04/2024)</h4>
+                                    <li>Identified SEO errors, enabling the site to rank on Google's first page</li>
+                                    <li>Utilized <u>HTML/CSS</u> and Webflow to ensure responsive and visually consistent design</li>
+                                    <li>Maintained clear daily communication to achieve project goals</li>
+                                </div>
+                                <a href="https://www.getupgraded.ca/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={coop1} alt="Upgraded Technologies Inc." className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                </a>
                             </div>
                         </div>
                     </div>
