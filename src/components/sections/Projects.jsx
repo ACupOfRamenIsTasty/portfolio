@@ -36,7 +36,7 @@ export const Projects = () => {
                             </a>
 
                             <h4 className="text-xl mb-2">
-                                Jan 2018 – Jun 2025
+                                01/2018 - 06/2025
                             </h4>
 
                             <p className="text-gray-400 mb-4">
@@ -104,7 +104,7 @@ export const Projects = () => {
                             </a>
 
                             <h4 className="text-xl mb-2">
-                                Jun 2025 - Present
+                                06/2025 - Present
                             </h4>
 
                             <p className="text-gray-400 mb-4">
