@@ -1,0 +1,108 @@
+import { RevealOnScroll } from '../RevealOnScroll';
+
+const skills = {
+    Design: ["AutoCAD", "MicroStation", "Tinkercad"],
+    Coding: ["Java", "Python", "C", "C++", "HTML/CSS", "Javascript", "Matlab"],
+    Fullstack: ["React", "Node.js", "Express", "Axios", "WordPress"],
+    Content: ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
+    Circuits: ["Arduino", "Breadboard", "FPGAs", "STM32", "VHDL"],
+    Equipment: ["Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
+    Tools: ["MS Office", "Excel", "Git", "Github", "AWS", "Jira", "npm"],
+};
+
+const SkillsDisplay = () => {
+    return (
+        <>
+            {
+                Object.entries(skills).map(([category, skillList]) => (
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">{category}</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {skillList.map((skill) => (
+                                <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition"
+                                >
+                                    {skill}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                ))
+            }
+        </>
+    )
+};
+
+
+export const About = () => {
+    return (
+        <section
+            id="about"
+            className="min-h-screen flex items-center justify-center py-20"
+        >
+            <RevealOnScroll>
+                <div className="max-w-3xl mx-auto px-4">
+                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-700 to-yellow-400 bg-clip-text text-transparent text-center">
+                        About Me
+                    </h2>
+
+                    <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 mt-8 transition-all">
+                        <p className="text-gray-300 mb-6">
+                            Hi! I'm Daniel, an ambitious Electrical Engineering undergraduate with a peerless background in STEAM and computer software. My mission is to utilize my diverse skillset of creative software, AI, fullstack development, circuits, and more to leave a positive impact on my community. When I'm not busy, I indulge myself with new software and personal projects, my most notable one being a monetizing YouTube channel powered by my knowledge of video editing and content creation. I also like to make text-based games with programming languages and build circuits using Arduino. Being a jack-of-all-trades when it comes to computer software, I'm thrilled to explore future job possibilities and the various ways I can benefit my community!
+                        </p>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <SkillsDisplay />
+                        </div>
+                    </div>
+
+                    <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 mt-8 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Education</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <div className="space-y-2">
+                                <strong> BASc in Electrical Engineering (Co-op) </strong> - University of Waterloo (09/2023 - 04/2028)
+                            </div>
+                            <li>
+                                GPA: 3.8/4.0
+                            </li>
+                            <li>
+                                Coursework: Signals and Systems, Semiconductor Physics, Data Structures and Algorithms, Advanced Calculus 2
+                            </li>
+                            <div className="space-y-2">
+                                <strong> Ontario Secondary School Diploma (Co-op) </strong> - St. Theresa of Lisieux Catholic High School (09/2019 - 06/2023)
+                            </div>
+                            <li>
+                                GPA: 95.00%
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 mt-8 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+                        <div className="space-y-4 text-gray-300">
+                            <div>
+                                <h4><strong>Graphics Designer</strong> - UW Plant Operations (05/2025 - 08/2025)</h4>
+                                <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, Javascript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
+                                <li>Authored onboarding documentation and video tutorials for 8 future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
+                            </div>
+                            <div>
+                                <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
+                                <li>Utilized <u>React, Node.js, Express, and Axios</u> with a detail-oriented mindset to develop the certified Technology and Skilled Trades curriculum with <u>HTML/CSS, React and Node.js</u>, educating 30 students per term</li>
+                                <li>Designed an <u>AI prompting curriculum</u> for 100+ teachers in the GTA, promoting AI use in classrooms (see Projects)</li>
+                                <li>Boosted SEO performance by revamping business partners' websites using <u>Wordpress and Elementor</u>, increasing click-through rate by 30%</li>
+                                <li>Adapted to <u>Arduino IDE</u>, using communication to teach wiring and coding concepts to 50+ elementary and high school students</li>
+                            </div>
+                            <div>
+                                <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (03/2024 - 04/2024)</h4>
+                                <li>Employed a detail-oriented mindset to catch SEO errors, resulting in the website's 1st-page rankings on Google Search pages</li>
+                                <li>Employed <u>HTML/CSS</u> and Webflow, ensuring consistency and mobile-friendly design across every page</li>
+                                <li>Communicated daily with colleagues to achieve company goals and improve work reviews</li>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </RevealOnScroll>
+        </section>
+    );
+};
