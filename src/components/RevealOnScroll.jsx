@@ -15,7 +15,7 @@ export const RevealOnScroll = ({ children }) => {
                 }
             },
             // Triggers when 10% of element is visible
-            { threshold: 0.1, rootMargin: "0px 0px -25px 0px" }
+            { threshold: 0, rootMargin: "0px 0px -25px 0px" }
         );
 
         // Start observing element once rendered
