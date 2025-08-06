@@ -1,4 +1,5 @@
 import { RevealOnScroll } from '../RevealOnScroll';
+import face from '../../assets/face.png';
 
 const skills = {
     Design: ["AutoCAD", "MicroStation", "Tinkercad"],
@@ -46,17 +47,34 @@ export const About = () => {
                         About Me
                     </h2>
 
-                    <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 mt-8 transition-all">
+                    <div className="glass rounded-xl p-8">
+                        <a
+                            href="https://www.linkedin.com/in/d75kim/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex justify-center mb-4"
+                        >
+                            <img
+                                src={face}
+                                alt="LinkedIn page"
+                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(0,119,181,0.3)]"
+                            />
+                        </a>
+
                         <p className="text-gray-300 mb-6">
                             Hi! I'm Daniel, an ambitious Electrical Engineering undergraduate with a peerless background in STEAM and computer software. My mission is to utilize my diverse skillset of creative software, AI, fullstack development, circuits, and more to leave a positive impact on my community. When I'm not busy, I indulge myself with new software and personal projects, my most notable one being a monetizing YouTube channel powered by my knowledge of video editing and content creation. I also like to make text-based games with programming languages and build circuits using Arduino. Being a jack-of-all-trades when it comes to computer software, I'm thrilled to explore future job possibilities and the various ways I can benefit my community!
                         </p>
+                    </div>
 
+                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <SkillsDisplay />
                         </div>
                     </div>
 
-                    <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 mt-8 transition-all">
+                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 mt-8
+    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Education</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <div className="space-y-2">
@@ -77,7 +95,8 @@ export const About = () => {
                         </ul>
                     </div>
 
-                    <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 mt-8 transition-all">
+                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 mt-8
+    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
