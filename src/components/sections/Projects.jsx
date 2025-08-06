@@ -40,7 +40,7 @@ export const Projects = () => {
                             </h4>
 
                             <p className="text-gray-400 mb-4">
-                                Creatively edited 700+ former Minecraft and rhythm game videos to become a <u>self-starting</u> YouTube Partner
+                                Creatively edited 700+ former Minecraft and rhythm game videos to become a self-starting YouTube Partner
                             </p>
 
                             <div className="flex flex-wrap justify-center gap-2 mb-4">
@@ -158,8 +158,34 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                World Bank Software Library
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                01/2025 - 04/2025
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Constructed an application to analyze real-world datasets and gain insights into societally-relevant problems
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["C++", "DSA", "Dynamic Memory", "OOP"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 Prompt Engineering Curriculum
                             </h3>
+                            <h4 className="text-lg mb-2">
+                                10/2024 - 11/2024
+                            </h4>
                             <p className="text-gray-400 mb-4">
                                 Designed an AI curriculum for elementary and high-school students, promoting it with a blog and YouTube video
                             </p>
@@ -204,26 +230,11 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
-                                World Bank Software Library
+                                Traffic Light Controller
                             </h3>
-                            <p className="text-gray-400 mb-4">
-                                Constructed an application to analyze real-world datasets and gain insights into societally-relevant problems
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["C++", "DSA", "Dynamic Memory", "OOP"].map((skill, key) => (
-                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
-
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">Traffic Light Controller</h3>
+                            <h4 className="text-lg mb-2">
+                                06/2024 - 07/2024
+                            </h4>
                             <p className="text-gray-400 mb-4">
                                 Programmed an FPGA traffic display allowing users to trigger crosswalk signals from both directions
                             </p>
@@ -241,7 +252,12 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
-                            <h3 className="text-xl font-bold mb-2">Digital Thermostat</h3>
+                            <h3 className="text-xl font-bold mb-2">
+                                Digital Thermostat
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                06/2024 - 07/2024
+                            </h4>
                             <p className="text-gray-400 mb-4">
                                 Programmed an FPGA application to simulate the regulation of a room's temperature when opening doors and turning on the AC/furnace
                             </p>
@@ -259,7 +275,12 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
-                            <h3 className="text-xl font-bold mb-2">C++ Minesweeper</h3>
+                            <h3 className="text-xl font-bold mb-2">
+                                C++ Minesweeper
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                10/2023 - 11/2023
+                            </h4>
                             <p className="text-gray-400 mb-4">
                                 Wrote function definitions for the game, allowing the player to customize the board size and number of mines
                             </p>
@@ -277,7 +298,12 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
-                            <h3 className="text-xl font-bold mb-2">Sunscreen Alarm</h3>
+                            <h3 className="text-xl font-bold mb-2">
+                                Sunscreen Alarm
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                09/2023 - 11/2023
+                            </h4>
                             <p className="text-gray-400 mb-4">
                                 Prototyped a device that sets a timer based on the detected UV levels
                             </p>

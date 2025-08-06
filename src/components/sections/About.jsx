@@ -87,7 +87,7 @@ export const About = () => {
                                 Coursework: Signals and Systems, Semiconductor Physics, Data Structures and Algorithms, Advanced Calculus 2
                             </li>
                             <div className="space-y-2">
-                                <strong> Ontario Secondary School Diploma (Co-op) </strong> - St. Theresa of Lisieux Catholic High School (09/2019 - 06/2023)
+                                <strong> Ontario Secondary School Diploma </strong> - St. Theresa of Lisieux Catholic High School (09/2019 - 06/2023)
                             </div>
                             <li>
                                 GPA: 95.00%
