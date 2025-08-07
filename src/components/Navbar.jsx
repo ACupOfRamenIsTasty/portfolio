@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import logo from "../assets/logo.png";
+import logo from "../../public/logo.png";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
     // Prevent scrolling when mobile menu is open

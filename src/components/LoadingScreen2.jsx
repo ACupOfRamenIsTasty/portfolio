@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import loadingGif from '../assets/logo.png';
+import loadingGif from '../../public/logo.png';
 
 export const LoadingScreen2 = ({ onComplete }) => {
     const [progress, setProgress] = useState(0); // Current percentage (0–100)
