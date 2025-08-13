@@ -108,7 +108,7 @@ export const Projects = () => {
                             </h4>
 
                             <p className="text-gray-400 mb-4">
-                                Scaled a niche rhythm game channel to 700 subscribers within 2 months
+                                Scaled a niche rhythm game channel to 1000 subscribers within 2 months
                             </p>
 
                             <div className="flex flex-wrap justify-center gap-2 mb-4">

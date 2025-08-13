@@ -5,7 +5,7 @@ import coop2 from '../../assets/F24.png';
 import coop3 from '../../assets/S25.png';
 
 const skills = {
-    Design: ["AutoCAD", "MicroStation", "Tinkercad"],
+    Design: ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
     Coding: ["Java", "Python", "C", "C++", "HTML/CSS", "Javascript", "Matlab"],
     Fullstack: ["React", "Node.js", "Express", "Axios", "WordPress"],
     Content: ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
@@ -108,7 +108,7 @@ export const About = () => {
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Graphics Designer</strong> - UW Plant Operations (05/2025 - 08/2025)</h4>
                                     <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, Javascript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
-                                    <li>Authored onboarding documentation and video tutorials for 8 future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
+                                    <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40" />
