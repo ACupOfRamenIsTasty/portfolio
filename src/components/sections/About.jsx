@@ -9,8 +9,8 @@ const skills = {
     Coding: ["Java", "Python", "C", "C++", "HTML/CSS", "Javascript", "Matlab"],
     Fullstack: ["React", "Node.js", "Express", "Axios", "WordPress"],
     Content: ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
-    Circuits: ["Arduino", "Breadboard", "FPGAs", "STM32", "VHDL"],
-    Equipment: ["Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
+    Circuits: ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
+    Equipment: ["Soldering", "Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
     Tools: ["MS Office", "Excel", "Git", "Github", "AWS", "Jira", "npm"],
 };
 
@@ -132,7 +132,7 @@ export const About = () => {
                             {/* Winter 2024 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (03/2024 - 04/2024)</h4>
+                                    <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (01/2024 - 04/2024)</h4>
                                     <li>Identified SEO errors, enabling the site to rank on Google's first page</li>
                                     <li>Utilized <u>HTML/CSS</u> and Webflow to ensure responsive and visually consistent design</li>
                                     <li>Maintained clear daily communication to achieve project goals</li>
