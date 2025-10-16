@@ -106,7 +106,7 @@ export const About = () => {
                             {/* Spring 2025 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>Graphics Designer</strong> - UW Plant Operations (05/2025 - 08/2025)</h4>
+                                    <h4><strong>Graphics Designer</strong> - University of Waterloo (05/2025 - 08/2025)</h4>
                                     <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, Javascript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
                                     <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
                                 </div>
