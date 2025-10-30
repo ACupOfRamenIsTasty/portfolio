@@ -66,7 +66,10 @@ export const About = () => {
                         </a>
 
                         <p className="text-gray-300 mb-6">
-                            Hi! I'm Daniel, an ambitious Electrical Engineering undergraduate with a peerless background in STEAM and computer software. My mission is to utilize my diverse skillset of creative software, AI, fullstack development, circuits, and more to leave a positive impact on my community. When I'm not busy, I indulge myself with new software and personal projects, my most notable one being a monetizing YouTube channel powered by my knowledge of video editing and content creation. I also like to make text-based games with programming languages and build circuits using Arduino. Being a jack-of-all-trades when it comes to computer software, I'm thrilled to explore future job possibilities and the various ways I can benefit my community!
+                            Hi! I'm Daniel, an ambitious Electrical Engineering undergraduate passionate about bridging hardware and software to create meaningful, real-world solutions. With experience spanning embedded systems, full-stack web development, and automation graphics, I enjoy transforming ideas into tangible systems that connect technology with people.
+                        </p>
+                        <p className="text-gray-300 mb-6">
+                            Outside of engineering, I run multiple YouTube channels where I apply my skills in video editing, SEO, and storytelling to engage a growing audience. I’m always excited to learn, build, and contribute to projects that make an impact, whether it’s coding interactive games, prototyping new circuits, or exploring creative software tools.
                         </p>
                     </div>
 
