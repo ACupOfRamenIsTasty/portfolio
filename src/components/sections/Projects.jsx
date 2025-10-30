@@ -1,6 +1,10 @@
 import { RevealOnScroll } from '../RevealOnScroll';
 import ACupOfRamen from '../../assets/ACupOfRamen.png';
 import nihilith from '../../assets/nihilith.png';
+import nihiline from '../../assets/nihiline.png';
+import tictactoe from '../../assets/tictactoe.png';
+import reservoir from '../../assets/reservoir.png';
+import worldbank from '../../assets/worldbank.png';
 
 export const Projects = () => {
     return (
@@ -158,6 +162,90 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                AI Rhythm Game Prototype
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                09/2025 - Present
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Developed a browser-based rhythm game to implement responsive hit detection, note timing, and calibration mechanics
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["React", "JavaScript", "Tailwind CSS", "UI/UX", "Prompt Engineering"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={nihiline}
+                                alt="nihiline"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                Embedded Water Reservoir Prototype
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                09/2025 - Present
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Designed and implemented an embedded prototype, integrating PCBs, sensors, and GPIO through iterative hardware/software co-design
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["STM32CubeIDE", "C", "PCBs", "Soldering", "Oscilloscope", "Power Supply"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={reservoir}
+                                alt="Embedded Water Reservoir Prototype"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                TIC TAC TOE -EX+REME-
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                07/2025 - 09/2025
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Added a spin to the classic Tic-tac-toe in a browser-based game introducing wildcard mechanics
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["React", "JavaScript", "Tailwind CSS", "UI/UX"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={tictactoe}
+                                alt="TIC TAC TOE -EX+REME-"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+                        
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 World Bank Software Library
                             </h3>
                             <h4 className="text-lg mb-2">
@@ -175,6 +263,11 @@ export const Projects = () => {
                                     </span>
                                 ))}
                             </div>
+                            <img
+                                src={worldbank}
+                                alt="Data Structures and Algorithms"
+                                className="rounded-xl overflow-hidden mb-4 border border-white"
+                            />
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30

@@ -5,13 +5,14 @@ import coop2 from '../../assets/F24.png';
 import coop3 from '../../assets/S25.png';
 
 const skills = {
-    Design: ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
-    Coding: ["Java", "Python", "C", "C++", "HTML/CSS", "Javascript", "Matlab"],
-    Fullstack: ["React", "Node.js", "Express", "Axios", "WordPress"],
-    Content: ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
-    Circuits: ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
-    Equipment: ["Soldering", "Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
-    Tools: ["MS Office", "Excel", "Git", "Github", "AWS", "Jira", "npm"],
+    "Design": ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
+    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "Javascript", "Matlab"],
+    "Fullstack": ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "Axios", "WordPress"],
+    "Data Science": ["Machine Learning", "SQL", "pandas"],
+    "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
+    "Circuits": ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
+    "Equipment": ["Soldering", "Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
+    "Tools": ["MS Office", "Excel", "Git", "Github", "AWS", "Jira", "npm"],
 };
 
 const SkillsDisplay = () => {
