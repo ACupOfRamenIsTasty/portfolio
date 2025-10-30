@@ -27,7 +27,7 @@ export const Projects = () => {
                             </h3>
 
                             <a
-                                href="https://youtube.com/@ACupOfRamenIsTasty"
+                                href="https://youtube.com/@ACupOfRamenIsTasty/?sub_confirmation=1"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex justify-center mb-4"
@@ -95,7 +95,7 @@ export const Projects = () => {
                             </h3>
 
                             <a
-                                href="https://youtube.com/@nihilRG"
+                                href="https://youtube.com/@nihilRG/?sub_confirmation=1"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex justify-center mb-4"
