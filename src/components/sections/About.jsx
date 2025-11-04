@@ -6,8 +6,8 @@ import coop3 from '../../assets/S25.png';
 
 const skills = {
     "Design": ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
-    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "Javascript", "Matlab"],
-    "Fullstack": ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "Axios", "WordPress"],
+    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "Matlab"],
+    "Fullstack": ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "Axios", "WordPress"],
     "Data Science": ["Machine Learning", "SQL", "pandas"],
     "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
     "Circuits": ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
@@ -111,7 +111,7 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Graphics Designer</strong> - University of Waterloo (05/2025 - 08/2025)</h4>
-                                    <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, Javascript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
+                                    <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, JavaScript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
                                     <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
