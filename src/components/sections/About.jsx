@@ -111,8 +111,8 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Graphics Designer</strong> - University of Waterloo (05/2025 - 08/2025)</h4>
-                                    <li>Designed graphics for 25 campus buildings with <u>Tridium Niagara 4, JavaScript, and UI/UX</u> to improve ease of use and situational awareness for HVAC operators</li>
-                                    <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of <u>air handling units, chillers, and heat exchangers</u>, reducing training time by 50%</li>
+                                    <li>Designed graphics for 25 campus buildings with Tridium Niagara 4, JavaScript, and UI/UX to improve ease of use and situational awareness for HVAC operators</li>
+                                    <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of air handling units, chillers, and heat exchangers, reducing training time by 50%</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40" />
@@ -123,10 +123,10 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
-                                    <li>Utilized <u>React, Node.js, Express, and Axios</u> to develop a certified curriculum for 30 students per term</li>
-                                    <li>Designed an <u>AI prompting curriculum</u> for 100+ teachers in the GTA, promoting AI use in classrooms</li>
-                                    <li>Boosted SEO performance by revamping websites with <u>Wordpress and Elementor</u>, increasing click-through rate by 30%</li>
-                                    <li>Taught Arduino wiring and code concepts to 50+ students using <u>Arduino IDE</u></li>
+                                    <li>Utilized React, Node.js, Express, and Axios to develop a certified curriculum for 30 students per term</li>
+                                    <li>Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting AI use in classrooms</li>
+                                    <li>Boosted SEO performance by revamping websites with Wordpress and Elementor, increasing click-through rate by 30%</li>
+                                    <li>Taught Arduino wiring and code concepts to 50+ students using Arduino IDE</li>
                                 </div>
                                 <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40" />
@@ -138,7 +138,7 @@ export const About = () => {
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (01/2024 - 04/2024)</h4>
                                     <li>Identified SEO errors, enabling the site to rank on Google's first page</li>
-                                    <li>Utilized <u>HTML/CSS</u> and Webflow to ensure responsive and visually consistent design</li>
+                                    <li>Utilized HTML/CSS and Webflow to ensure responsive and visually consistent design</li>
                                     <li>Maintained clear daily communication to achieve project goals</li>
                                 </div>
                                 <a href="https://www.getupgraded.ca/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
