@@ -61,12 +61,12 @@ export const About = () => {
                             <img
                                 src={face}
                                 alt="LinkedIn page"
-                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(0,119,181,0.3)]"
+                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(0,119,181,0.7)]"
                             />
                         </a>
 
                         <p className="text-gray-300 mb-6">
-                            Hi! I'm Daniel, an ambitious Electrical Engineering undergraduate passionate about bridging hardware and software to create meaningful, real-world solutions. With experience spanning embedded systems, full-stack web development, and automation graphics, I enjoy transforming ideas into tangible systems that connect technology with people.
+                            Hi! I'm Daniel, an ambitious undergrad bridging hardware and software to create meaningful, real-world solutions. With experience spanning embedded systems, full-stack web development, and automation graphics, I enjoy transforming ideas into tangible systems that connect technology with people.
                         </p>
                         <p className="text-gray-300 mb-6">
                             Outside of engineering, I run multiple YouTube channels where I apply my skills in video editing, SEO, and storytelling to engage a growing audience. I’m always excited to learn, build, and contribute to projects that make an impact, whether it’s coding interactive games, prototyping new circuits, or exploring creative software tools.

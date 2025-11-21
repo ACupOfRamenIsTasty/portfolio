@@ -17,8 +17,8 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        A UWaterloo Electrical Engineering undergraduate.
-                        Proficient in coding, fullstack, content creation, and AI/ML.
+                        A UWaterloo Electrical Engineering undergraduate.<br />
+                        Your next hire for anything AI, fullstack, or content.
                     </p>
 
                     <div className="flex justify-center space-x-4">

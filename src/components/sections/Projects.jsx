@@ -35,7 +35,7 @@ export const Projects = () => {
                                 <img
                                     src={ACupOfRamen}
                                     alt="ACupOfRamen's YouTube Channel"
-                                    className="h-30 w-30 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.3)]"
+                                    className="h-30 w-30 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]"
                                 />
                             </a>
 
@@ -103,7 +103,7 @@ export const Projects = () => {
                                 <img
                                     src={nihilith}
                                     alt="nihilith's YouTube Channel"
-                                    className="h-30 w-30 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(0,255,255,0.3)]"
+                                    className="h-30 w-30 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(0,255,255,0.7)]"
                                 />
                             </a>
 
