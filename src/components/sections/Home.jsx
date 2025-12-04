@@ -18,7 +18,7 @@ export const Home = () => {
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                         A UWaterloo Electrical Engineering undergraduate.<br />
-                        Your next hire for anything AI, fullstack, or content.
+                        Your next hire for anything AI, fullstack, QA, or content.
                     </p>
 
                     <div className="flex justify-center space-x-4">

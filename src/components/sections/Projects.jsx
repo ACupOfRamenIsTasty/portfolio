@@ -193,7 +193,7 @@ export const Projects = () => {
                                 Embedded Water Reservoir Prototype
                             </h3>
                             <h4 className="text-lg mb-2">
-                                09/2025 - Present
+                                09/2025 - 12/2025
                             </h4>
                             <p className="text-gray-400 mb-4">
                                 Designed and implemented an embedded prototype, integrating PCBs, sensors, and GPIO through iterative hardware/software co-design
