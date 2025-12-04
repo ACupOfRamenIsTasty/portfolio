@@ -55,6 +55,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         >
                             Projects
                         </a>
+
+                        <a
+                            href="#channels"
+                            className="text-gray-300 hover:text-white transition-colors"
+                        >
+                            YouTube
+                        </a>
+
                         <a
                             href="#contact"
                             className="text-gray-300 hover:text-white transition-colors"

@@ -62,7 +62,7 @@ export const About = () => {
                             <img
                                 src={face}
                                 alt="LinkedIn page"
-                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(0,119,181,0.7)]"
+                                className="h-50 w-50 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]"
                             />
                         </a>
 
@@ -117,7 +117,7 @@ export const About = () => {
                                     <li>Performed features, functions, stability, and regression testing on products</li>
                                 </div>
                                 <a href="https://mircom.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                    <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
                                 </a>
                             </div>
 
@@ -129,7 +129,7 @@ export const About = () => {
                                     <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of air handling units, chillers, and heat exchangers, reducing training time by 50%</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                    <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
                                 </a>
                             </div>
 
@@ -143,7 +143,7 @@ export const About = () => {
                                     <li>Taught Arduino wiring and code concepts to 50+ students using Arduino IDE</li>
                                 </div>
                                 <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                    <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
                                 </a>
                             </div>
 
@@ -156,7 +156,7 @@ export const About = () => {
                                     <li>Maintained clear daily communication to achieve project goals</li>
                                 </div>
                                 <a href="https://www.getupgraded.ca/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
-                                    <img src={coop1} alt="Upgraded Technologies Inc." className="w-full rounded-xl shadow-md object-cover max-h-40" />
+                                    <img src={coop1} alt="Upgraded Technologies Inc." className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
                                 </a>
                             </div>
                         </div>
