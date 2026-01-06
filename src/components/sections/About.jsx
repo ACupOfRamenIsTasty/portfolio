@@ -57,7 +57,7 @@ export const About = () => {
                             href="https://www.linkedin.com/in/d75kim/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex justify-center mb-4"
+                            className="flex justify-center mb-16"
                         >
                             <img
                                 src={face}
