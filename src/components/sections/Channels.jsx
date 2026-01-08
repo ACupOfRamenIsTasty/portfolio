@@ -89,7 +89,13 @@ export const Channels = () => {
     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition text-center">
 
                             <h3 className="text-3xl font-bold mb-4">
-                                nihilith
+                                <a
+                                    href="https://acupoframenistasty.github.io/nihilith"
+                                    target="_blank"
+                                    className="text-pink-400 hover:text-cyan-200 transition-colors my-4"
+                                >
+                                    nihilith
+                                </a>
                             </h3>
 
                             <a
@@ -106,7 +112,7 @@ export const Channels = () => {
                             </a>
 
                             <h4 className="text-xl mb-2">
-                                06/2025 - Present
+                                06/2025 - 12/2025
                             </h4>
 
                             <p className="text-gray-400 mb-4">
