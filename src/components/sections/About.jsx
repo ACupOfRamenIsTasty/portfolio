@@ -3,7 +3,7 @@ import face from '../../assets/face.png';
 import coop1 from '../../assets/W24.png';
 import coop2 from '../../assets/F24.png';
 import coop3 from '../../assets/S25.png';
-import coop4 from '../../assets/W26.png';
+import coop4 from '../../assets/W26.jpeg';
 
 const skills = {
     "Design": ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
@@ -111,10 +111,8 @@ export const About = () => {
                             {/* Winter 2026 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>QA Analyst</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
-                                    <li>Used exising test strategies and procedures for design verification of networked fire alarm control panels and system configuration tools</li>
-                                    <li>Developed documentation of test procedures and regression test plans</li>
-                                    <li>Performed features, functions, stability, and regression testing on products</li>
+                                    <h4><strong>QA Test Developer</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
+                                    <li>Automated test procedures using Python and Gitlab, catching 20+ bugs on existing fire alarm control panels</li>
                                 </div>
                                 <a href="https://mircom.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
