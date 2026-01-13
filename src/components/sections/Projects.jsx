@@ -26,7 +26,7 @@ export const Projects = () => {
                                 AI Rhythm Game Prototype
                             </h3>
                             <h4 className="text-lg mb-2">
-                                09/2025 - Present
+                                09/2025 - 12/2025
                             </h4>
                             <p className="text-gray-400 mb-4">
                                 Developed a browser-based rhythm game to implement responsive hit detection, note timing, and calibration mechanics

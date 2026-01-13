@@ -13,7 +13,7 @@ const skills = {
     "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
     "Circuits": ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
     "Equipment": ["Soldering", "Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
-    "Tools": ["MS Office", "Excel", "Git", "Github", "AWS", "Jira", "npm"],
+    "Tools": ["MS Office", "Excel", "GitLab", "GitHub", "CI/CD Pipelines", "AWS", "Jira", "npm"],
 };
 
 const SkillsDisplay = () => {
@@ -67,10 +67,19 @@ export const About = () => {
                         </a>
 
                         <p className="text-gray-300 mb-6">
-                            Hi! I'm Daniel, an ambitious undergrad bridging hardware and software to create meaningful, real-world solutions. With experience spanning embedded systems, full-stack web development, and automation graphics, I enjoy transforming ideas into tangible systems that connect technology with people.
+                            I’m 20 and still don’t have a dream job.
                         </p>
                         <p className="text-gray-300 mb-6">
-                            Outside of engineering, I run multiple YouTube channels where I apply my skills in video editing, SEO, and storytelling to engage a growing audience. I’m always excited to learn, build, and contribute to projects that make an impact, whether it’s coding interactive games, prototyping new circuits, or exploring creative software tools.
+                            What I do have is the willingness to explore until the answer becomes obvious. I’ve worked across embedded systems, building automation, and full-stack development. I design, break, and fix, operating at the intersection of theory and reality.
+                        </p>
+                        <p className="text-gray-300 mb-6">
+                            Outside engineering, I run multiple YouTube channels, where I apply technical and creative skills in video editing, SEO, and analytics. Growing an audience taught me how systems behave at scale, how users think, and how to iterate when something doesn’t work.
+                        </p>
+                        <p className="text-gray-300 mb-6">
+                            I don’t claim to have everything mapped out. But the more I build, the clearer it gets. There’s no better time to experiment than now.
+                        </p>
+                        <p className="text-gray-300 mb-6">
+                            2026 is my year.
                         </p>
                     </div>
 
@@ -92,7 +101,7 @@ export const About = () => {
                                 GPA: 3.8/4.0
                             </li>
                             <li>
-                                Coursework: Signals, Power Systems, Semiconductor Physics, Data Structures and Algorithms, Advanced Calculus 2
+                                100% on Advanced Calculus 2
                             </li>
                             <div className="space-y-2">
                                 <strong> Ontario Secondary School Diploma </strong> - St. Theresa of Lisieux Catholic High School (09/2019 - 06/2023)
@@ -138,7 +147,6 @@ export const About = () => {
                                     <li>Utilized React, Node.js, Express, and Axios to develop a certified curriculum for 30 students per term</li>
                                     <li>Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting AI use in classrooms</li>
                                     <li>Boosted SEO performance by revamping websites with Wordpress and Elementor, increasing click-through rate by 30%</li>
-                                    <li>Taught Arduino wiring and code concepts to 50+ students using Arduino IDE</li>
                                 </div>
                                 <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
