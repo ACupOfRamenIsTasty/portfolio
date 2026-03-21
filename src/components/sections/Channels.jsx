@@ -45,18 +45,6 @@ export const Channels = () => {
                                 Creatively edited 700+ former Minecraft and rhythm game videos to become a self-starting YouTube Partner
                             </p>
 
-                            <div className="flex flex-wrap justify-center gap-2 mb-4">
-                                {["Final Cut Pro X", "YouTube Studio", "SEO", "Communication"].map((skill, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe
                                     width="560"
@@ -118,18 +106,6 @@ export const Channels = () => {
                             <p className="text-gray-400 mb-4">
                                 Scaled a niche rhythm game channel to gather 1000 subscribers and 100,000 views within 2 months
                             </p>
-
-                            <div className="flex flex-wrap justify-center gap-2 mb-4">
-                                {["Final Cut Pro X", "YouTube Studio", "SEO", "Canva", "Prompt Engineering"].map((skill, key) => (
-                                    <span
-                                        key={key}
-                                        className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
 
                             <div className="rounded-xl overflow-hidden mb-4">
                                 <iframe

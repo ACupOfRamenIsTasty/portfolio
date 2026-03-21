@@ -6,9 +6,9 @@ import coop3 from '../../assets/S25.png';
 import coop4 from '../../assets/W26.jpeg';
 
 const skills = {
-    "Design": ["AutoCAD", "MicroStation", "Tinkercad", "Tridium Niagara"],
-    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "Matlab"],
-    "Fullstack": ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "Axios", "WordPress"],
+    "Design": ["AutoCAD", "MicroStation", "Tinkercad"],
+    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "YML", "Matlab/Octave"],
+    "Fullstack": ["React", "TypeScript", "Vite", "Node.js", "Express", "Axios", "WordPress"],
     "Data Science": ["Machine Learning", "SQL", "pandas"],
     "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
     "Circuits": ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
@@ -120,8 +120,10 @@ export const About = () => {
                             {/* Winter 2026 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>QA Test Developer</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
-                                    <li>Automated test procedures using Python and Gitlab, catching 20+ bugs on existing fire alarm control panels</li>
+                                    <h4><strong>QA Automation Engineer</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
+                                    <li>Developed internal conversion tools (DOCX→XML, CSV→DOCX, Markdown→PDF) using Python, eliminating repetitive manual formatting and streamlining documentation workflows across engineering teams</li>
+                                    <li>Built CI/CD pipelines in GitLab to automate firmware compilation of FPGAs for fire panels using Cygwin and YML, reducing 90% of build errors</li>
+                                    <li>Engineered 100+ automated fire panel test cases using Python and the TestRail API, replacing manual validation workflows and increasing testing speed by 20x</li>
                                 </div>
                                 <a href="https://mircom.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
@@ -144,9 +146,9 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
-                                    <li>Utilized React, Node.js, Express, and Axios to develop a certified curriculum for 30 students per term</li>
-                                    <li>Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting AI use in classrooms</li>
-                                    <li>Boosted SEO performance by revamping websites with Wordpress and Elementor, increasing click-through rate by 30%</li>
+                                    <li>Utilized React, Node.js, Express, and Axios with a detail-oriented mindset to develop the certified Technology and Skilled Trades curriculum with HTML/CSS, React and Node.js, educating 30 students per term</li>
+                                    <li> Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting ethical AI use in classrooms</li>
+                                    <li>Boosted SEO performance by revamping business partners’ websites using Wordpress and Elementor, increasing click-through rate by 30%</li>
                                 </div>
                                 <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
@@ -157,9 +159,9 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (01/2024 - 04/2024)</h4>
-                                    <li>Identified SEO errors, enabling the site to rank on Google's first page</li>
-                                    <li>Utilized HTML/CSS and Webflow to ensure responsive and visually consistent design</li>
-                                    <li>Maintained clear daily communication to achieve project goals</li>
+                                    <li>Employed a detail-oriented mindset to catch SEO errors, resulting in the website’s 1st-page rankings on Google Search pages</li>
+                                    <li>Employed HTML/CSS and Webflow, ensuring consistency and mobile-friendly design across every page</li>
+                                    <li>Communicated daily with colleagues to achieve company goals and improve work reviews</li>
                                 </div>
                                 <a href="https://www.getupgraded.ca/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop1} alt="Upgraded Technologies Inc." className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />

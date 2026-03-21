@@ -32,7 +32,7 @@ export const Projects = () => {
                                 Developed a browser-based rhythm game to implement responsive hit detection, note timing, and calibration mechanics
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "JavaScript", "Tailwind CSS", "UI/UX", "Prompt Engineering"].map((skill, key) => (
+                                {["React", "JavaScript", "UI/UX", "Prompt Engineering"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
@@ -88,7 +88,7 @@ export const Projects = () => {
                                 Added a spin to the classic Tic-tac-toe in a browser-based game introducing wildcard mechanics
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "JavaScript", "Tailwind CSS", "UI/UX"].map((skill, key) => (
+                                {["React", "JavaScript", "UI/UX"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
