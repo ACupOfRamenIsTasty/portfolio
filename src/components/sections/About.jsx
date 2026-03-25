@@ -3,17 +3,17 @@ import face from '../../assets/face.png';
 import coop1 from '../../assets/W24.png';
 import coop2 from '../../assets/F24.png';
 import coop3 from '../../assets/S25.png';
-import coop4 from '../../assets/W26.jpeg';
+import coop4 from '../../assets/W26.png';
 
 const skills = {
     "Design": ["AutoCAD", "MicroStation", "Tinkercad"],
-    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "YML", "Matlab/Octave"],
-    "Fullstack": ["React", "TypeScript", "Vite", "Node.js", "Express", "Axios", "WordPress"],
+    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "TypeScript", "YML", "Matlab/Octave"],
+    "Fullstack": ["React", "Next.js", "Vite", "Express"],
     "Data Science": ["Machine Learning", "SQL", "pandas"],
     "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
-    "Circuits": ["Arduino", "Breadboard", "FPGAs", "PCBs", "STM32", "VHDL"],
-    "Equipment": ["Soldering", "Oscilloscope", "Power supply", "Multimeter", "Function Generator"],
-    "Tools": ["MS Office", "Excel", "GitLab", "GitHub", "CI/CD Pipelines", "AWS", "Jira", "npm"],
+    "Circuits": ["FPGAs", "PCBs", "STM32", "VHDL"],
+    "Equipment": ["Soldering", "Oscilloscope", "Multimeter", "Function Generator"],
+    "Tools": ["MS Office", "GitLab", "GitHub", "CI/CD Pipelines", "AWS", "Jira"],
 };
 
 const SkillsDisplay = () => {
@@ -146,7 +146,7 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
-                                    <li>Utilized React, Node.js, Express, and Axios with a detail-oriented mindset to develop the certified Technology and Skilled Trades curriculum with HTML/CSS, React and Node.js, educating 30 students per term</li>
+                                    <li>Utilized React, Express, and Axios with a detail-oriented mindset to develop the certified Technology and Skilled Trades curriculum, educating 30 students per term</li>
                                     <li> Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting ethical AI use in classrooms</li>
                                     <li>Boosted SEO performance by revamping business partners’ websites using Wordpress and Elementor, increasing click-through rate by 30%</li>
                                 </div>

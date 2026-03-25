@@ -23,6 +23,62 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                Grinderly
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                ???
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                ???
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["React Native", "Vite"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            {/*<img
+                                src={nihiline}
+                                alt="nihiline"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />*/}
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                Mircom Onboarding Web App
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                03/2026 - 04/2026
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Designed and deployed an onboarding web application by applying knowledge of PLCs, FPGAs, and other embedded systems, reducing training time by 80%
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["React", "Next.js", "TypeScript", "UI/UX"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            {/*<img
+                                src={nihiline}
+                                alt="nihiline"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />*/}
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 AI Rhythm Game Prototype
                             </h3>
                             <h4 className="text-lg mb-2">
@@ -60,7 +116,7 @@ export const Projects = () => {
                                 Designed and implemented an embedded prototype, integrating PCBs, sensors, and GPIO through iterative hardware/software co-design
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["STM32CubeIDE", "C", "PCBs", "Soldering", "Oscilloscope", "Power Supply"].map((skill, key) => (
+                                {["STM32CubeIDE", "C", "PCBs", "Soldering", "Oscilloscope"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
