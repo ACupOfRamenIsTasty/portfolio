@@ -57,10 +57,10 @@ export const Projects = () => {
                                 03/2026 - 04/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Designed and deployed an onboarding web application by applying knowledge of PLCs, FPGAs, and other embedded systems, reducing training time by 80%
+                                Led end-to-end deployment of an onboarding web application by applying knowledge of PLCs, FPGAs, and other embedded systems, reducing training time by 80%
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "Next.js", "TypeScript", "UI/UX"].map((skill, key) => (
+                                {["React", "Next.js", "TypeScript", "GitLab"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
