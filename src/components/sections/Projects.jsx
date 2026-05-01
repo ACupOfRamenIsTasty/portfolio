@@ -3,6 +3,7 @@ import nihiline from '../../assets/nihiline.png';
 import tictactoe from '../../assets/tictactoe.png';
 import reservoir from '../../assets/reservoir.png';
 import worldbank from '../../assets/worldbank.png';
+import knowledgebase from '../../assets/knowledgebase.png';
 
 export const Projects = () => {
     return (
@@ -46,12 +47,11 @@ export const Projects = () => {
                                 className="rounded-xl overflow-hidden mb-4"
                             />*/}
                         </div>
-
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
-                                Mircom Onboarding Web App
+                                Mircom Knowledge Base
                             </h3>
                             <h4 className="text-lg mb-2">
                                 03/2026 - 04/2026
@@ -68,11 +68,11 @@ export const Projects = () => {
                                     </span>
                                 ))}
                             </div>
-                            {/*<img
-                                src={nihiline}
-                                alt="nihiline"
+                            <img
+                                src={knowledgebase}
+                                alt="Knowledge Base"
                                 className="rounded-xl overflow-hidden mb-4"
-                            />*/}
+                            />
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
