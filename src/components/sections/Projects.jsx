@@ -27,10 +27,10 @@ export const Projects = () => {
                                 Grinderly
                             </h3>
                             <h4 className="text-lg mb-2">
-                                ???
+                                05/2026 - Present
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                ???
+                                Published a cross-platform livestreaming app to prevent student procrastination
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["React Native", "Vite"].map((skill, key) => (
@@ -54,7 +54,7 @@ export const Projects = () => {
                                 Mircom Knowledge Base
                             </h3>
                             <h4 className="text-lg mb-2">
-                                03/2026 - 04/2026
+                                01/2026 - 04/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
                                 Led end-to-end deployment of an onboarding web application by applying knowledge of PLCs, FPGAs, and other embedded systems, reducing training time by 80%
