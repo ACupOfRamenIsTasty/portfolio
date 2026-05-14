@@ -4,6 +4,7 @@ import tictactoe from '../../assets/tictactoe.png';
 import reservoir from '../../assets/reservoir.png';
 import worldbank from '../../assets/worldbank.png';
 import knowledgebase from '../../assets/knowledgebase.png';
+import grinderly from '../../assets/grinderly.png';
 
 export const Projects = () => {
     return (
@@ -41,11 +42,11 @@ export const Projects = () => {
                                     </span>
                                 ))}
                             </div>
-                            {/*<img
-                                src={nihiline}
-                                alt="nihiline"
+                            <img
+                                src={grinderly}
+                                alt="grinderly"
                                 className="rounded-xl overflow-hidden mb-4"
-                            />*/}
+                            />
                         </div>
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
