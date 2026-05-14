@@ -121,7 +121,7 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>QA Automation Engineer</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
-                                    <li>Developed internal conversion tools (DOCX→XML, CSV→DOCX, Markdown→PDF) using Python, eliminating repetitive manual formatting and streamlining documentation workflows across engineering teams</li>
+                                    <li>Developed Python-based internal conversion tools (DOCX→XML, CSV→DOCX, Markdown→PDF) used by 50 engineers, eliminating repetitive manual formatting and streamlining documentation workflows across teams</li>
                                     <li>Built CI/CD pipelines in GitLab to automate firmware compilation of FPGAs for fire panels using Cygwin and YML, reducing 90% of build errors</li>
                                     <li>Engineered 100+ automated fire panel test cases using Python and the TestRail API, replacing manual validation workflows and increasing testing speed by 20x</li>
                                 </div>
