@@ -52,7 +52,7 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
-                                Mircom Knowledge Base
+                                Knowledge Base Web App
                             </h3>
                             <h4 className="text-lg mb-2">
                                 01/2026 - 04/2026
@@ -68,6 +68,15 @@ export const Projects = () => {
                                         {skill}
                                     </span>
                                 ))}
+                            </div>
+                            <div className="flex flex-wrap justify-between items-center grid grid-cols-3 gap-2 mb-4">
+                                <a
+                                    href="https://github.com/ACupOfRamenIsTasty/knowledge-base/"
+                                    target="_blank"
+                                    className="text-yellow-400 hover:text-yellow-200 transition-colors my-4"
+                                >
+                                    View Repository
+                                </a>
                             </div>
                             <img
                                 src={knowledgebase}
@@ -152,6 +161,22 @@ export const Projects = () => {
                                         {skill}
                                     </span>
                                 ))}
+                            </div>
+                            <div className="flex flex-wrap justify-between items-center grid grid-cols-3 gap-2 mb-4">
+                                <a
+                                    href="https://github.com/ACupOfRamenIsTasty/tic-tac-toe-extreme"
+                                    target="_blank"
+                                    className="text-yellow-400 hover:text-yellow-200 transition-colors my-4"
+                                >
+                                    View Repository
+                                </a>
+                                <a
+                                    href="https://acupoframenistasty.github.io/tic-tac-toe-extreme/"
+                                    target="_blank"
+                                    className="text-yellow-400 hover:text-yellow-200 transition-colors my-4"
+                                >
+                                    Play with a friend
+                                </a>
                             </div>
                             <img
                                 src={tictactoe}
