@@ -3,6 +3,7 @@ import nihiline from '../../assets/nihiline.png';
 import tictactoe from '../../assets/tictactoe.png';
 import reservoir from '../../assets/reservoir.png';
 import worldbank from '../../assets/worldbank.png';
+import multinode from '../../assets/multinode.png';
 import knowledgebase from '../../assets/knowledgebase.png';
 import grinderly from '../../assets/grinderly.png';
 
@@ -81,6 +82,34 @@ export const Projects = () => {
                             <img
                                 src={knowledgebase}
                                 alt="Knowledge Base"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                6-Node Fire Panel Setup
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                01/2026 - 04/2026
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Assembled and networked a 6-node fire panel setup to support UL/ULC testing
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["PLCs", "Circuit Design", "Power Systems", "Cygwin", "Tera Term"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={multinode}
+                                alt="6-Node Fire Panel Setup"
                                 className="rounded-xl overflow-hidden mb-4"
                             />
                         </div>
@@ -331,12 +360,8 @@ export const Projects = () => {
                             </div>
                         </div>
 
-                    </div>
-
-                    { /* Second grid to center last item */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8 place-items-center">
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition w-full md:col-span-2 md:w-1/2"
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
                                 Sunscreen Alarm
