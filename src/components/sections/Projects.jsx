@@ -90,7 +90,7 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
-                                6-Node Fire Panel Setup
+                                Multi-Node Fire Panel Setup
                             </h3>
                             <h4 className="text-lg mb-2">
                                 01/2026 - 04/2026
