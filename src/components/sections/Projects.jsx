@@ -96,7 +96,7 @@ export const Projects = () => {
                                 01/2026 - 04/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Assembled and networked a 6-node fire panel setup to support UL/ULC testing
+                                Assembled and networked a 6 fire panels to support UL/ULC testing of FX-MNS-6000 devices
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["PLCs", "Circuit Design", "Power Systems", "Cygwin", "Tera Term"].map((skill, key) => (
