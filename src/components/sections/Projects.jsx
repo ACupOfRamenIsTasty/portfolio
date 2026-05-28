@@ -78,6 +78,13 @@ export const Projects = () => {
                                 >
                                     View Repository
                                 </a>
+                                <a
+                                    href="https://acupoframenistasty.github.io/knowledge-base/"
+                                    target="_blank"
+                                    className="text-yellow-400 hover:text-yellow-200 transition-colors my-4"
+                                >
+                                    Open Template
+                                </a>
                             </div>
                             <img
                                 src={knowledgebase}
