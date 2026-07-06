@@ -6,6 +6,7 @@ import worldbank from '../../assets/worldbank.png';
 import multinode from '../../assets/multinode.png';
 import knowledgebase from '../../assets/knowledgebase.png';
 import grinderly from '../../assets/grinderly.png';
+import qtrobot from '../../assets/qtrobot.png';
 
 export const Projects = () => {
     return (
@@ -21,7 +22,36 @@ export const Projects = () => {
                     
                     {/* Main Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
-
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                QT Robot Vision & Spatial Reasoning Optimization
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                05/2026 - 08/2026
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Engineered prompt-based object recognition pipelines for a QT Robot using the Gemini Robotics-ER 1.6 API, iteratively refining prompts to improve spatial reasoning accuracy by 20% across 10+ object categories
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Designed and executed a structured test suite, evaluating object recognition under partial occlusion, varied positioning, and repeated trials (10x per object) to quantitatively benchmark prompt tuning performance
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Prompt Engineering", "ROS", "Computer Vision", "Ubuntu", "Python"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={qtrobot}
+                                alt="qtrobot"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
