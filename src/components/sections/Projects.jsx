@@ -56,6 +56,49 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
+                                Rhythm Game Prototype
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                05/2026 - 08/2026
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Designed and prototyped a novel web rhythm game that supports 9 inputs and varying note speeds
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["React", "JavaScript", "Vite", "Prompt Engineering"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <div className="flex flex-wrap justify-between items-center grid grid-cols-3 gap-2 mb-4">
+                                <a
+                                    href="https://github.com/ACupOfRamenIsTasty/nihiline"
+                                    target="_blank"
+                                    className="text-yellow-400 hover:text-yellow-200 transition-colors my-4"
+                                >
+                                    View Repository
+                                </a>
+                                <a
+                                    href="https://acupoframenistasty.github.io/nihiline/"
+                                    target="_blank"
+                                    className="text-yellow-400 hover:text-yellow-200 transition-colors my-4"
+                                >
+                                    Play Now
+                                </a>
+                            </div>
+                            <img
+                                src={nihiline}
+                                alt="nihiline"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
                                 Grinderly
                             </h3>
                             <h4 className="text-lg mb-2">
@@ -150,35 +193,6 @@ export const Projects = () => {
                                 className="rounded-xl overflow-hidden mb-4"
                             />
                         </div>
-
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">
-                                AI Rhythm Game Prototype
-                            </h3>
-                            <h4 className="text-lg mb-2">
-                                09/2025 - 12/2025
-                            </h4>
-                            <p className="text-gray-400 mb-4">
-                                Developed a browser-based rhythm game to implement responsive hit detection, note timing, and calibration mechanics
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "JavaScript", "UI/UX", "Prompt Engineering"].map((skill, key) => (
-                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-                            <img
-                                src={nihiline}
-                                alt="nihiline"
-                                className="rounded-xl overflow-hidden mb-4"
-                            />
-                        </div>
-
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
