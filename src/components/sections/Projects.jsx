@@ -32,7 +32,7 @@ export const Projects = () => {
                                 05/2026 - 08/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Engineered prompt-based object recognition pipelines for a QT Robot using the Gemini Robotics-ER 1.6 API, iteratively refining prompts to improve spatial reasoning accuracy by 20% across 10+ object categories
+                                Engineered prompt-based object recognition pipelines for a QT Robot using the Gemini Robotics-ER 1.6 API, iteratively refining prompts to improve spatial reasoning accuracy by 80% across 10+ object categories
                             </p>
                             <p className="text-gray-400 mb-4">
                                 Designed and executed a structured test suite, evaluating object recognition under partial occlusion, varied positioning, and repeated trials (10x per object) to quantitatively benchmark prompt tuning performance
