@@ -12,7 +12,7 @@ const skills = {
     "Data Science": ["Machine Learning", "SQL", "pandas"],
     "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
     "Circuits": ["FPGAs", "PCBs", "STM32", "VHDL"],
-    "Equipment": ["Soldering", "Oscilloscope", "Multimeter", "Function Generator"],
+    "Equipment": ["Oscilloscope", "Multimeter", "Network Analyzer", "Signal Generator"],
     "Tools": ["MS Office", "GitLab", "GitHub", "CI/CD Pipelines", "AWS", "Jira"],
 };
 

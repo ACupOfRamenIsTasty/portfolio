@@ -206,7 +206,7 @@ export const Projects = () => {
                                 Designed and implemented an embedded prototype, integrating PCBs, sensors, and GPIO through iterative hardware/software co-design
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["STM32CubeIDE", "C", "PCBs", "Soldering", "Oscilloscope"].map((skill, key) => (
+                                {["STM32CubeIDE", "C", "PCBs", "Oscilloscope"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
