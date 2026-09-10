@@ -11,9 +11,9 @@ const skills = {
     "Fullstack": ["React", "Next.js", "Vite", "Express"],
     "Data Science": ["Machine Learning", "SQL", "pandas"],
     "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
-    "Circuits": ["FPGAs", "PCBs", "STM32", "VHDL"],
+    "Hardware": ["FPGA", "PCB", "STM32", "VHDL"],
     "Equipment": ["Oscilloscope", "Multimeter", "Network Analyzer", "Signal Generator"],
-    "Tools": ["MS Office", "GitLab", "GitHub", "CI/CD Pipelines", "AWS", "Jira"],
+    "Tools": ["MS Office", "GitLab", "GitHub", "Spice", "CI/CD Pipelines", "AWS", "Jira"],
 };
 
 const SkillsDisplay = () => {
