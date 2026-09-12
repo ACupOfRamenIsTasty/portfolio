@@ -1,6 +1,7 @@
 import { RevealOnScroll } from '../RevealOnScroll';
 import ACupOfRamen from '../../assets/ACupOfRamen.png';
 import nihilith from '../../assets/nihilith.png';
+import nihilithsarchive from '../../assets/nihilith\'s archive.png';
 
 export const Channels = () => {
     return (
@@ -15,7 +16,7 @@ export const Channels = () => {
                     </h2>
 
                     {/* Main Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition text-center">
@@ -42,7 +43,7 @@ export const Channels = () => {
                             </h4>
 
                             <p className="text-gray-400 mb-4">
-                                Creatively edited 700+ former Minecraft and rhythm game videos to become a self-starting YouTube Partner
+                                Creatively edited 1000+ former Minecraft and rhythm game videos to become a self-starting YouTube Partner
                             </p>
 
                             <div className="rounded-xl overflow-hidden mb-4">
@@ -104,7 +105,7 @@ export const Channels = () => {
                             </h4>
 
                             <p className="text-gray-400 mb-4">
-                                Scaled a niche rhythm game channel to gather 1000 subscribers and 100,000 views within 2 months, generating $500 CAD in revenue
+                                Scaled a niche rhythm game channel to 1000 subscribers and 100,000 views within 2 months, generating $500 CAD in revenue
                             </p>
 
                             <div className="rounded-xl overflow-hidden mb-4">
@@ -126,6 +127,62 @@ export const Channels = () => {
                                     height="315"
                                     src="https://youtube.com/embed/-3JoXT4RHsk"
                                     title="Can I master Paradigm: Reboot in 10 HOURS?!"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                ></iframe>
+                            </div>
+
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition text-center">
+
+                            <h3 className="text-3xl font-bold mb-4">
+                                nihilith's archive
+                            </h3>
+
+                            <a
+                                href="https://youtube.com/@nihilithsarchive/?sub_confirmation=1"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex justify-center mb-4"
+                            >
+                                <img
+                                    src={nihilithsarchive}
+                                    alt="nihilith's archive YouTube Channel"
+                                    className="h-30 w-30 rounded-full object-cover transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]"
+                                />
+                            </a>
+
+                            <h4 className="text-xl mb-2">
+                                12/2025 - Present
+                            </h4>
+
+                            <p className="text-gray-400 mb-4">
+                                Achieved world records and top global rankings across the most difficult charts of Arcaea, Phigros, and Milthm
+                            </p>
+
+                            <div className="rounded-xl overflow-hidden mb-4">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/9UcwZ7eXdjo"
+                                    title="DREAD AREA [INS] (Arcaea)"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                ></iframe>
+                            </div>
+
+                            <div className="rounded-xl overflow-hidden mb-4">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://youtube.com/embed/57uKQIth8N8"
+                                    title="Myth compiler [CB] WORLD #1 MAX理論値 (Milthm)"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen

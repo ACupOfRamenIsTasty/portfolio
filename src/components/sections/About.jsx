@@ -117,6 +117,18 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
 
                         <div className="space-y-8 text-gray-300">
+                            {/* Spring 2026 */}
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                <div className="md:w-3/4 space-y-2">
+                                    <h4><strong>QT Robot Vision & Spatial Reasoning Optimization</strong> - University of Waterloo (05/2026 - 08/2026)</h4>
+                                    <li>Engineered prompt-based object recognition pipelines for a QT Robot using ROS, Python, and the Gemini Robotics-ER 1.6 API, iteratively refining prompts to improve spatial reasoning accuracy by 80% across 10+ object categories</li>
+                                    <li>Designed and executed a structured test suite on Ubuntu, evaluating object recognition under partial occlusion, varied positioning, and repeated trials (10x per object) to quantitatively benchmark performance</li>
+                                </div>
+                                <a href="https://uwaterloo.ca/social-intelligent-robotics-research-lab/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={coop3} alt="University of Waterloo Social and Intelligent Robotics Research Lab" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                </a>
+                            </div>
+
                             {/* Winter 2026 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
