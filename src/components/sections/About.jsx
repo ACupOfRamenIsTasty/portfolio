@@ -6,14 +6,13 @@ import coop3 from '../../assets/S25.png';
 import coop4 from '../../assets/W26.png';
 
 const skills = {
-    "Design": ["AutoCAD", "MicroStation", "Tinkercad"],
-    "Coding": ["Java", "Python", "C", "C++", "HTML/CSS", "JavaScript", "TypeScript", "YML", "Matlab/Octave"],
-    "Fullstack": ["React", "Next.js", "Vite", "Express"],
-    "Data Science": ["Machine Learning", "SQL", "pandas"],
-    "Content": ["Final Cut Pro X", "iMovie", "Adobe Creative Suite", "Canva"],
-    "Hardware": ["FPGA", "PCB", "STM32", "VHDL"],
-    "Equipment": ["Oscilloscope", "Multimeter", "Network Analyzer", "Signal Generator"],
-    "Tools": ["MS Office", "GitLab", "GitHub", "Spice", "CI/CD Pipelines", "AWS", "Jira"],
+  "Design": ["Altium Designer", "KiCAD", "Keysight ADS", "QUCS", "SPICE", "AutoCAD"],
+  "Embedded": ["FPGA", "STM32", "VHDL", "PCB Design"],
+  "Equipment": ["Oscilloscope", "Multimeter", "Network Analyzer", "Signal Generator"],
+  "Programming": ["C", "C++", "Python", "Java", "MATLAB/Octave"],
+  "Fullstack": ["JavaScript", "TypeScript", "React", "Next.js", "Vite", "Express", "HTML/CSS"],
+  "Data Science & ML": ["SQL", "pandas", "NumPy"],
+  "Tools": ["GitHub", "GitLab", "CI/CD Pipelines", "YAML", "AWS", "Jira", "MS Office"],
 };
 
 const SkillsDisplay = () => {
@@ -101,6 +100,9 @@ export const About = () => {
                                 GPA: 3.8/4.0
                             </li>
                             <li>
+                                Coursework: RF and Microwave Circuits, Digital Signal Processing, Analog Control Systems
+                            </li>
+                            <li>
                                 100% on Advanced Calculus 2
                             </li>
                             <div className="space-y-2">
@@ -117,12 +119,23 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
 
                         <div className="space-y-8 text-gray-300">
+                            {/* Fall 2026 */}
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                <div className="md:w-3/4 space-y-2">
+                                    <h4><strong>RF & Hardware Research Assistant</strong> - University of Waterloo (09/2026 - 12/2026)</h4>
+                                    <li>Developing a digital twin of a BeagleBone Black cape board in Keysight ADS and QUCS to model and simulate board-level circuit and RF behavior</li>
+                                </div>
+                                <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/sfischme" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={coop3} alt="Sebastian Fischmeister - University of Waterloo" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                </a>
+                            </div>
+
                             {/* Spring 2026 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
-                                    <h4><strong>QT Robot Vision & Spatial Reasoning Optimization</strong> - University of Waterloo (05/2026 - 08/2026)</h4>
-                                    <li>Engineered prompt-based object recognition pipelines for a QT Robot using ROS, Python, and the Gemini Robotics-ER 1.6 API, iteratively refining prompts to improve spatial reasoning accuracy by 80% across 10+ object categories</li>
-                                    <li>Designed and executed a structured test suite on Ubuntu, evaluating object recognition under partial occlusion, varied positioning, and repeated trials (10x per object) to quantitatively benchmark performance</li>
+                                    <h4><strong>Robotics & Computer Vision Research Assistant</strong> - University of Waterloo (05/2026 - 08/2026)</h4>
+                                    <li>Engineered prompt-based object recognition pipelines for a QT Robot using ROS, Python, and the Gemini Robotics-ER 1.6 API, refining prompts to improve spatial reasoning accuracy by 80% across 10+ object categories</li>
+                                    <li>Designed and executed a structured test suite on Ubuntu to benchmark recognition under partial occlusion and varied positioning, running 10 trials per object</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/social-intelligent-robotics-research-lab/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop3} alt="University of Waterloo Social and Intelligent Robotics Research Lab" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
@@ -133,9 +146,9 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>QA Automation Engineer</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
-                                    <li>Developed Python-based internal conversion tools (DOCX→XML, CSV→DOCX, Markdown→PDF) used by 50 engineers, eliminating repetitive manual formatting and streamlining documentation workflows across teams</li>
-                                    <li>Built CI/CD pipelines in GitLab to automate firmware compilation of FPGAs for fire panels using Cygwin and YML, reducing 90% of build errors</li>
-                                    <li>Engineered 100+ automated fire panel test cases using Python and the TestRail API, replacing manual validation workflows and increasing testing speed by 20x</li>
+                                    <li>Built GitLab CI/CD pipelines with Cygwin and YAML to automate FPGA firmware builds for fire panels, reducing build errors by 90%</li>
+                                    <li>Developed Python conversion tools (DOCX→XML, CSV→DOCX, Markdown→PDF) used by 50+ engineers, automating manual documentation formatting</li>
+                                    <li>Engineered 100+ automated fire alarm panel test cases using Python and the TestRail API, replacing manual validation and increasing testing speed by 20x</li>
                                 </div>
                                 <a href="https://mircom.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
@@ -146,8 +159,8 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Graphics Designer</strong> - University of Waterloo (05/2025 - 08/2025)</h4>
-                                    <li>Designed graphics for 25 campus buildings with Tridium Niagara 4, JavaScript, and UI/UX to improve ease of use and situational awareness for HVAC operators</li>
-                                    <li>Authored onboarding documentation and video tutorials for future co-op students by applying knowledge of air handling units, chillers, and heat exchangers, reducing training time by 50%</li>
+                                    <li>Designed operator graphics for 25 campus buildings using Tridium Niagara 4 and JavaScript, applying UI/UX principles to improve usability and situational awareness for HVAC operators</li>
+                                    <li>Authored onboarding documentation and video tutorials covering air handling units, chillers, and heat exchangers, reducing co-op training time by 50%</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/plant-operations/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop3} alt="University of Waterloo Plant Operations" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
@@ -158,9 +171,9 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
-                                    <li>Utilized React, Express, and Axios with a detail-oriented mindset to develop the certified Technology and Skilled Trades curriculum, educating 30 students per term</li>
-                                    <li> Designed an AI prompting curriculum for 100+ teachers in the GTA, promoting ethical AI use in classrooms</li>
-                                    <li>Boosted SEO performance by revamping business partners’ websites using Wordpress and Elementor, increasing click-through rate by 30%</li>
+                                    <li>Developed the certified Technology and Skilled Trades curriculum using React, Express, and Axios, instructing 30+ students per term</li>
+                                    <li>Designed an AI prompting curriculum for 100+ GTA teachers to promote ethical AI use in classrooms</li>
+                                    <li>Increased click-through rate by 30\% by revamping partner websites for SEO using WordPress and Elementor</li>
                                 </div>
                                 <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
@@ -171,9 +184,8 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>Web Developer</strong> - Upgraded Technologies Inc. (01/2024 - 04/2024)</h4>
-                                    <li>Employed a detail-oriented mindset to catch SEO errors, resulting in the website’s 1st-page rankings on Google Search pages</li>
-                                    <li>Employed HTML/CSS and Webflow, ensuring consistency and mobile-friendly design across every page</li>
-                                    <li>Communicated daily with colleagues to achieve company goals and improve work reviews</li>
+                                    <li>Audited and corrected SEO errors, earning first-page Google Search rankings for the company website</li>
+                                    <li>Built responsive pages in HTML/CSS and Webflow, ensuring consistent, mobile-friendly design across the site</li>
                                 </div>
                                 <a href="https://www.getupgraded.ca/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop1} alt="Upgraded Technologies Inc." className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />

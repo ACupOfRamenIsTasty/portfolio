@@ -32,10 +32,13 @@ export const Projects = () => {
                                 05/2026 - 08/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Designed and prototyped a novel web rhythm game that supports 9 inputs and varying note speeds
+                                Engineered a web-based rhythm game featuring custom state management to process 9 simultaneous key inputs and dynamic note rendering
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Designed custom UI components and optimized rendering performance to ensure low-latency audio-visual synchronization
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "JavaScript", "Vite", "Prompt Engineering"].map((skill, key) => (
+                                {["React", "TypeScript", "JavaScript", "Vite", "Web Audio API"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
@@ -75,10 +78,10 @@ export const Projects = () => {
                                 01/2026 - 04/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Led end-to-end deployment of an onboarding web application by applying knowledge of PLCs, FPGAs, and other embedded systems, reducing training time by 80%
+                                Led full-stack development of an interactive onboarding portal for embedded engineering concepts (PLCs, FPGAs), reducing onboarding time by 80%
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "Next.js", "TypeScript", "GitLab", "CI/CD Pipelines"].map((skill, key) => (
+                                {["Next.js", "React", "TypeScript", "GitLab", "CI/CD Pipelines"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
@@ -140,22 +143,22 @@ export const Projects = () => {
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
                             <h3 className="text-xl font-bold mb-2">
-                                Embedded Water Reservoir Prototype
+                                Embedded Water Reservoir System
                             </h3>
                             <h4 className="text-lg mb-2">
                                 09/2025 - 12/2025
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Designed an embedded system prototype integrating custom PCBs, sensors, and GPIO peripherals
+                                Designed and assembled an embedded system prototype incorporating custom PCBs, sensors, and GPIO peripherals
                             </p>
                             <p className="text-gray-400 mb-4">
-                                Configured I2C drivers for display and sensor interfacing alongside UART for serial communication and motor control debugging on an STM32 microcontroller
+                                Configured I2C drivers for display components and UART protocols for serial communication and motor control debugging
                             </p>
                             <p className="text-gray-400 mb-4">
-                                Validated hardware signal integrity, bus communication, and power distribution using oscilloscopes and multimeters
+                                Validated bus communication, signal integrity, and power distribution rails using digital oscilloscopes and multimeters
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["C", "STM32CubeIDE", "I2C", "UART", "PCB", "Oscilloscope", "Multimeter"].map((skill, key) => (
+                                {["C", "STM32CubeIDE", "Embeded Systems", "I2C", "UART", "PCB Design"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
