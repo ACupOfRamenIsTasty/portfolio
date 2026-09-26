@@ -16,8 +16,12 @@ export const Home = () => {
                         ACupOfRamen
                     </h1>
 
-                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                    <p className="text-gray-400 text-lg max-w-lg mx-auto">
                         Your next hire for anything hardware or software.
+                    </p>
+
+                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                        Current priority: RF, Hardware, and Embedded Systems.
                     </p>
 
                     <div className="flex justify-center space-x-4">

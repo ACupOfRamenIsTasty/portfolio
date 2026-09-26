@@ -301,13 +301,16 @@ export const Projects = () => {
                                 Traffic Light Controller
                             </h3>
                             <h4 className="text-lg mb-2">
-                                06/2024 - 07/2024
+                                05/2024 - 08/2024
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Programmed an FPGA traffic display allowing users to trigger crosswalk signals from both directions
+                                Implemented a finite state machine (FSM) in VHDL to control multi-direction intersection logic, pedestrian crosswalk requests, and priority state transitions
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Designed custom timing modules using clock dividers and counter circuits to manage dynamic signal duration and delay cycles
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["VHDL", "Moore SMs", "Mealy SMs"].map((skill, key) => (
+                                {["VHDL", "FPGA", "ModelSim", "RTL", "Digital Logic"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
@@ -324,13 +327,16 @@ export const Projects = () => {
                                 Digital Thermostat
                             </h3>
                             <h4 className="text-lg mb-2">
-                                06/2024 - 07/2024
+                                05/2024 - 08/2024
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Programmed an FPGA application to simulate the regulation of a room's temperature when opening doors and turning on the AC/furnace
+                                Designed a closed-loop digital thermostat core in VHDL using sequential and combinational logic modules for real-time temperature regulation
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Integrated arithmetic adders, comparators, and register banks to evaluate environmental state changes and threshold limits
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["VHDL", "Adders", "Comparators", "Sequential Logic"].map((skill, key) => (
+                                {["VHDL", "FPGA", "ModelSim", "RTL", "Digital Logic"].map((skill, key) => (
                                     <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
                             hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
                                     >
