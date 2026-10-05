@@ -39,7 +39,7 @@ export const Channels = () => {
                             </a>
 
                             <h4 className="text-xl mb-2">
-                                01/2018 - 06/2025
+                                Est. 01/2018
                             </h4>
 
                             <p className="text-gray-400 mb-4">
@@ -50,8 +50,8 @@ export const Channels = () => {
                                 <iframe
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/iTmeMrhNlDM"
-                                    title="50 things Phigros players hate..."
+                                    src="https://www.youtube.com/embed/j-oyloF8zY4"
+                                    title="50 things Phigros players DESPISE..."
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
@@ -101,7 +101,7 @@ export const Channels = () => {
                             </a>
 
                             <h4 className="text-xl mb-2">
-                                06/2025 - 12/2025
+                                Est. 06/2025
                             </h4>
 
                             <p className="text-gray-400 mb-4">
@@ -112,8 +112,8 @@ export const Channels = () => {
                                 <iframe
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/zM8U4r2_4K4"
-                                    title="The most ILLEGAL Phigros play you'll ever see."
+                                    src="https://www.youtube.com/embed/Ca-1UFUn9VA"
+                                    title="20 ways to (not) play Phigros"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
@@ -157,7 +157,7 @@ export const Channels = () => {
                             </a>
 
                             <h4 className="text-xl mb-2">
-                                12/2025 - Present
+                                Est. 12/2025
                             </h4>
 
                             <p className="text-gray-400 mb-4">
