@@ -173,7 +173,7 @@ export const About = () => {
                                     <h4><strong>Fullstack Developer</strong> - Wiz Robotics (09/2024 - 12/2024)</h4>
                                     <li>Developed the certified Technology and Skilled Trades curriculum using React, Express, and Axios, instructing 30+ students per term</li>
                                     <li>Designed an AI prompting curriculum for 100+ GTA teachers to promote ethical AI use in classrooms</li>
-                                    <li>Increased click-through rate by 30\% by revamping partner websites for SEO using WordPress and Elementor</li>
+                                    <li>Increased click-through rate by 30% by revamping partner websites for SEO using WordPress and Elementor</li>
                                 </div>
                                 <a href="https://wizrobotics.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop2} alt="Wiz Robotics" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
