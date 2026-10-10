@@ -123,7 +123,8 @@ export const About = () => {
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>RF & Hardware Research Assistant</strong> - University of Waterloo (09/2026 - 12/2026)</h4>
-                                    <li>Developing a digital twin of a BeagleBone Black cape board in Keysight ADS and QUCS to model and simulate board-level circuit and RF behavior</li>
+                                    <li>Developed a digital twin of a BeagleBone Black cape board in Keysight ADS and QUCS to model and simulate board-level circuit and RF behavior</li>
+                                    <li>Engineered a custom Anvil adapter PCB in KiCad for u-blox NEO6MV2 GPS module evaluation, executing schematic capture, component sourcing, and 50-ohm RF trace layout</li>
                                 </div>
                                 <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/sfischme" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop3} alt="Sebastian Fischmeister - University of Waterloo" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
