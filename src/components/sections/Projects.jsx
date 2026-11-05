@@ -2,11 +2,9 @@ import { RevealOnScroll } from '../RevealOnScroll';
 import nihiline from '../../assets/nihiline.png';
 import tictactoe from '../../assets/tictactoe.png';
 import reservoir from '../../assets/reservoir.png';
-import worldbank from '../../assets/worldbank.png';
 import multinode from '../../assets/multinode.png';
 import knowledgebase from '../../assets/knowledgebase.png';
-import grinderly from '../../assets/grinderly.png';
-import qtrobot from '../../assets/qtrobot.png';
+import lna from '../../assets/lna.png';
 
 export const Projects = () => {
     return (
@@ -22,6 +20,123 @@ export const Projects = () => {
                     
                     {/* Main Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                RF Low-Noise Amplifier
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                09/2026 - 12/2026
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Designed and simulated a 1 GHz LNA in Keysight ADS on a 63-mil FR-4 substrate, achieving a Noise Figure of {"<"} 1 dB, Gain {">"} 12 dB, Input Return Loss {">"} 10 dB, and Output Return Loss {">"} 20 dB
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Assembled the prototype via SMD soldering and validated prototype performance using a Vector Network Analyzer (VNA) and an Agilent CXA Signal Analyzer with a 346A noise source, reconciling simulated models with physical measurements
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Keysight ADS", "S-Parameter Extraction", "Vector Network Analyzer (VNA)", "Signal Analyzer", "SMD Assembly"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={lna}
+                                alt="RF Low-Noise Amplifier"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                Embedded Water Reservoir System
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                09/2025 - 12/2025
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Designed and assembled an embedded system prototype incorporating custom PCBs, sensors, and GPIO peripherals
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Configured I2C drivers for display components and UART protocols for serial communication and motor control debugging
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Validated bus communication, signal integrity, and power distribution rails using digital oscilloscopes and multimeters
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["C", "STM32CubeIDE", "Embedded Systems", "I2C", "UART", "PCB Design"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                            <img
+                                src={reservoir}
+                                alt="Embedded Water Reservoir Prototype"
+                                className="rounded-xl overflow-hidden mb-4"
+                            />
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                Traffic Light Controller
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                05/2024 - 08/2024
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Implemented a finite state machine (FSM) in VHDL to control multi-direction intersection logic, pedestrian crosswalk requests, and priority state transitions
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Designed custom timing modules using clock dividers and counter circuits to manage dynamic signal duration and delay cycles
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["VHDL", "FPGA", "ModelSim", "RTL", "Digital Logic"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
+                        >
+                            <h3 className="text-xl font-bold mb-2">
+                                Digital Thermostat
+                            </h3>
+                            <h4 className="text-lg mb-2">
+                                05/2024 - 08/2024
+                            </h4>
+                            <p className="text-gray-400 mb-4">
+                                Designed a closed-loop digital thermostat core in VHDL using sequential and combinational logic modules for real-time temperature regulation
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Integrated arithmetic adders, comparators, and register banks to evaluate environmental state changes and threshold limits
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["VHDL", "FPGA", "ModelSim", "RTL", "Digital Logic"].map((skill, key) => (
+                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
+                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                        
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
                         >
@@ -78,7 +193,10 @@ export const Projects = () => {
                                 01/2026 - 04/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Led full-stack development of an interactive onboarding portal for embedded engineering concepts (PLCs, FPGAs), reducing onboarding time by 80%
+                                Led end-to-end development of an interactive onboarding portal for embedded engineering concepts (PLCs, FPGAs), reducing onboarding time by 80%
+                            </p>
+                            <p className="text-gray-400 mb-4">
+                                Implemented automated CI/CD deployment workflows in GitLab to maintain continuous build stability and automated testing
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Next.js", "React", "TypeScript", "GitLab", "CI/CD Pipelines"].map((skill, key) => (
@@ -136,39 +254,6 @@ export const Projects = () => {
                             <img
                                 src={multinode}
                                 alt="6-Node Fire Panel Setup"
-                                className="rounded-xl overflow-hidden mb-4"
-                            />
-                        </div>
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">
-                                Embedded Water Reservoir System
-                            </h3>
-                            <h4 className="text-lg mb-2">
-                                09/2025 - 12/2025
-                            </h4>
-                            <p className="text-gray-400 mb-4">
-                                Designed and assembled an embedded system prototype incorporating custom PCBs, sensors, and GPIO peripherals
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                Configured I2C drivers for display components and UART protocols for serial communication and motor control debugging
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                Validated bus communication, signal integrity, and power distribution rails using digital oscilloscopes and multimeters
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["C", "STM32CubeIDE", "Embeded Systems", "I2C", "UART", "PCB Design"].map((skill, key) => (
-                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-                            <img
-                                src={reservoir}
-                                alt="Embedded Water Reservoir Prototype"
                                 className="rounded-xl overflow-hidden mb-4"
                             />
                         </div>
@@ -238,11 +323,6 @@ export const Projects = () => {
                                     </span>
                                 ))}
                             </div>
-                            <img
-                                src={worldbank}
-                                alt="Data Structures and Algorithms"
-                                className="rounded-xl overflow-hidden mb-4 border border-white"
-                            />
                         </div>
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
@@ -291,58 +371,6 @@ export const Projects = () => {
                                 >
                                     View Video
                                 </a>
-                            </div>
-                        </div>
-
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">
-                                Traffic Light Controller
-                            </h3>
-                            <h4 className="text-lg mb-2">
-                                05/2024 - 08/2024
-                            </h4>
-                            <p className="text-gray-400 mb-4">
-                                Implemented a finite state machine (FSM) in VHDL to control multi-direction intersection logic, pedestrian crosswalk requests, and priority state transitions
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                Designed custom timing modules using clock dividers and counter circuits to manage dynamic signal duration and delay cycles
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["VHDL", "FPGA", "ModelSim", "RTL", "Digital Logic"].map((skill, key) => (
-                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
-
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition"
-                        >
-                            <h3 className="text-xl font-bold mb-2">
-                                Digital Thermostat
-                            </h3>
-                            <h4 className="text-lg mb-2">
-                                05/2024 - 08/2024
-                            </h4>
-                            <p className="text-gray-400 mb-4">
-                                Designed a closed-loop digital thermostat core in VHDL using sequential and combinational logic modules for real-time temperature regulation
-                            </p>
-                            <p className="text-gray-400 mb-4">
-                                Integrated arithmetic adders, comparators, and register banks to evaluate environmental state changes and threshold limits
-                            </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {["VHDL", "FPGA", "ModelSim", "RTL", "Digital Logic"].map((skill, key) => (
-                                    <span className="bg-orange-500/10 text-yellow-400 py-1 px-3 rounded-full text-sm hover:bg-yellow-400/20
-                            hover:shadow-[0_2px_8px_rgba(246,130,59,0.2)] transition-all"
-                                    >
-                                        {skill}
-                                    </span>
-                                ))}
                             </div>
                         </div>
 

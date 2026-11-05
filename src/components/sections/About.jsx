@@ -6,10 +6,11 @@ import coop3 from '../../assets/S25.png';
 import coop4 from '../../assets/W26.png';
 
 const skills = {
-  "Design": ["Altium Designer", "KiCAD", "Keysight ADS", "QUCS", "SPICE", "AutoCAD"],
+  "RF & Microwave": ["Keysight ADS", "QUCS", "S-Parameter Extraction", "Impedance Matching", "Noise Figure Analysis", "Stability Analysis", "Smith Charts"],
+  "Design": ["Altium Designer", "KiCAD", "SPICE", "AutoCAD"],
   "Embedded": ["FPGA", "STM32", "VHDL", "PCB Design"],
-  "Equipment": ["Oscilloscope", "Multimeter", "Network Analyzer", "Signal Generator"],
-  "Programming": ["C", "C++", "Python", "Java", "MATLAB/Octave"],
+  "Equipment": ["Vector Network Analyzer (VNA)", "Signal Analyzer","Oscilloscope", "Multimeter", "Signal Generator"],
+  "Programming": ["Python", "C", "C++", "MATLAB/Octave"],
   "Fullstack": ["JavaScript", "TypeScript", "React", "Next.js", "Vite", "Express", "HTML/CSS"],
   "Data Science & ML": ["SQL", "pandas", "NumPy"],
   "Tools": ["GitHub", "GitLab", "CI/CD Pipelines", "YAML", "AWS", "Jira", "MS Office"],
@@ -66,19 +67,19 @@ export const About = () => {
                         </a>
 
                         <p className="text-gray-300 mb-6">
-                            I’m 20 and still don’t have a dream job.
+                            I’m building my career at the intersection of RF engineering, embedded systems, and hardware design.
                         </p>
                         <p className="text-gray-300 mb-6">
-                            What I do have is the willingness to explore until the answer becomes obvious. I’ve worked across embedded systems, building automation, and full-stack development. I design, break, and fix, operating at the intersection of theory and reality.
+                            Spanning Keysight ADS, S-parameter extraction, and VNAs, my core focus is high-frequency circuit design and hardware prototyping. Additionally, I bring a multidisciplinary edge to every team I join: my background covers full-stack development, automated test pipelines in Python, and low-level firmware integration. Whether I'm designing a 1 GHz low-noise amplifier on an FR-4 substrate, writing CI/CD workflows for FPGA builds, or optimizing embedded sensors, I operate hands-on where theory meets reality.
                         </p>
                         <p className="text-gray-300 mb-6">
-                            Outside engineering, I run multiple YouTube channels, where I apply technical and creative skills in video editing, SEO, and analytics. Growing an audience taught me how systems behave at scale, how users think, and how to iterate when something doesn’t work.
+                            Outside engineering, I run multiple YouTube channels, applying technical and creative skills in video editing, SEO, and analytics. Growing an audience taught me how systems behave at scale, how users think, and how to iterate rapidly when something doesn’t work.
                         </p>
                         <p className="text-gray-300 mb-6">
-                            I don’t claim to have everything mapped out. But the more I build, the clearer it gets. There’s no better time to experiment than now.
+                            The path is clear and the tools are in my hands.
                         </p>
                         <p className="text-gray-300 mb-6">
-                            2026 is my year.
+                            2027 will be my year.
                         </p>
                     </div>
 
@@ -100,7 +101,7 @@ export const About = () => {
                                 GPA: 3.8/4.0
                             </li>
                             <li>
-                                Coursework: RF and Microwave Circuits, Digital Signal Processing, Analog Control Systems
+                                Coursework: RF and Microwave Circuits, EM Wave Theory, Digital Signal Processing
                             </li>
                             <li>
                                 100% on Advanced Calculus 2
@@ -148,8 +149,8 @@ export const About = () => {
                                 <div className="md:w-3/4 space-y-2">
                                     <h4><strong>QA Automation Engineer</strong> - Mircom Group of Companies (01/2026 - 04/2026)</h4>
                                     <li>Built GitLab CI/CD pipelines with Cygwin and YAML to automate FPGA firmware builds for fire panels, reducing build errors by 90%</li>
-                                    <li>Developed Python conversion tools (DOCX→XML, CSV→DOCX, Markdown→PDF) used by 50+ engineers, automating manual documentation formatting</li>
-                                    <li>Engineered 100+ automated fire alarm panel test cases using Python and the TestRail API, replacing manual validation and increasing testing speed by 20x</li>
+                                    <li>Developed Python conversion tools (DOCX to XML, CSV to DOCX, Markdown to PDF) used by 50+ engineers, automating manual documentation formatting</li>
+                                    <li>Engineered 100+ automated fire alarm panel test cases using Python and the TestRail API, replacing manual validation and increasing testing speed by 20 times</li>
                                 </div>
                                 <a href="https://mircom.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
                                     <img src={coop4} alt="Mircom Group of Companies" className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />

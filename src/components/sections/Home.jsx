@@ -17,7 +17,7 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        Your next hire for anything Electrical & Software.
+                        Your next hire for RF & Microwave Circuit Design.
                     </p>
 
                     <div className="flex justify-center space-x-4">
