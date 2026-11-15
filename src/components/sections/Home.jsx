@@ -16,6 +16,10 @@ export const Home = () => {
                         ACupOfRamen
                     </h1>
 
+                    <p className="text-gray-400 text-lg max-w-lg mx-auto">
+                        3rd Year Electrical Engineering at UWaterloo.
+                    </p>
+
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                         Your next hire for RF & Microwave Circuit Design.
                     </p>

@@ -30,10 +30,10 @@ export const Projects = () => {
                                 09/2026 - 12/2026
                             </h4>
                             <p className="text-gray-400 mb-4">
-                                Designed and simulated a 1 GHz LNA in Keysight ADS on a 63-mil FR-4 substrate, achieving a Noise Figure of {"<"} 1 dB, Gain {">"} 12 dB, Input Return Loss {">"} 10 dB, and Output Return Loss {">"} 20 dB
+                                Designed and EM-simulated a 1 GHz low-noise amplifier (LNA) in Keysight ADS on a 63-mil FR-4 substrate, achieving a simulated Noise Figure of 0.77 dB, Gain of 18.46 dB, and a Figure of Merit of 364.2
                             </p>
                             <p className="text-gray-400 mb-4">
-                                Assembled the prototype via SMD soldering and validated prototype performance using a Vector Network Analyzer (VNA) and an Agilent CXA Signal Analyzer with a 346A noise source, reconciling simulated models with physical measurements
+                                Synthesized and EM-tuned lumped-element L-section input and output matching networks to reconcile layout parasitics, achieving a simulated Input Return Loss of 14.10 dB and Output Return Loss of 22.91 dB
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Keysight ADS", "S-Parameter Extraction", "Vector Network Analyzer (VNA)", "Signal Analyzer", "SMD Assembly"].map((skill, key) => (
