@@ -196,6 +196,31 @@ export const About = () => {
                         </div>
                     </div>
 
+                    <div className="glass rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 mt-8
+    hover:shadow-[0_2px_8px_rgba(246,130,59,0.1)] transition-all">
+                        <h3 className="text-xl font-bold mb-4">Awards</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <div className="space-y-2">
+                                <strong> Enova Power Electrical Engineering Scholarship </strong> - University of Waterloo (11/2026)
+                            </div>
+                            <li>
+                                Maintained an 85% cumulative average and demonstrated outstanding workplace contributions to benefit society
+                            </li>
+                            <div className="space-y-2">
+                                <strong> President's Research Award </strong> - University of Waterloo (07/2026)
+                            </div>
+                            <li>
+                                Pursued a research position under the supervision of a University of Waterloo researcher while balancing full-time studies
+                            </li>
+                            <div className="space-y-2">
+                                <strong> President's Scholarship of Distinction </strong> - University of Waterloo (09/2023)
+                            </div>
+                            <li>
+                                Achieved an early May admission average of 95% or higher
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </RevealOnScroll>
         </section>
