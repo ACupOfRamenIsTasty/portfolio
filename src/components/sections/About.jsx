@@ -4,6 +4,7 @@ import coop1 from '../../assets/W24.png';
 import coop2 from '../../assets/F24.png';
 import coop3 from '../../assets/S25.png';
 import coop4 from '../../assets/W26.png';
+import coop5 from '../../assets/W27.png';
 
 const skills = {
   "RF & Microwave": ["Keysight ADS", "QUCS", "S-Parameter Extraction", "Impedance Matching", "Noise Figure Analysis", "Stability Analysis", "Smith Charts"],
@@ -120,6 +121,17 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Work Experience</h3>
 
                         <div className="space-y-8 text-gray-300">
+                            {/* Winter 2027 */}
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                                <div className="md:w-3/4 space-y-2">
+                                    <h4><strong>RFIC Designer</strong> - Skyworks Solutions, Inc. (01/2027 - 12/2027)</h4>
+                                    <li>Tested and improved gain of Power Amplifiers for next-generation Wi-Fi front-end modules</li>
+                                </div>
+                                <a href="https://www.skyworksinc.com/" target="_blank" rel="noopener noreferrer" className="md:w-1/4 block">
+                                    <img src={coop5} alt="Skyworks Solutions, Inc." className="w-full rounded-xl shadow-md object-cover max-h-40 transition-all hover:shadow-[0_8px_24px_rgba(246,130,59,0.7)]" />
+                                </a>
+                            </div>
+
                             {/* Fall 2026 */}
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                                 <div className="md:w-3/4 space-y-2">

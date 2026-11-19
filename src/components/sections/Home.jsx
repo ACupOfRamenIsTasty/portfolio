@@ -21,7 +21,7 @@ export const Home = () => {
                     </p>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        Your next hire for RF & Microwave Circuit Design.
+                        Incoming RFIC Designer @ SkyWorks.
                     </p>
 
                     <div className="flex justify-center space-x-4">
